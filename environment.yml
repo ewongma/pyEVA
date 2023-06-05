@@ -1,0 +1,15 @@
+name: pyEVA
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+      - rpy2
+      - pandas
+      - numpy
+      - tensorflow
+      - keras
+      - pillow
+      - SciPy
+      - tqdm
