@@ -1,6 +1,10 @@
 import os
+from pathlib import Path
 
 if __name__ == '__main__':
+    if not (Path(__file__).parent / "input").exists():
+        raise RuntimeError("Create an Input folder and place the data into it")
+    (Path(__file__).parent / "output").mkdir(exist_ok=True)
     os.system('python config.py')
     os.system('python LoadCSV.py')
     print('Feature table has already been loaded and saved as “InputFeatureTable.csv” under the output folder.')
