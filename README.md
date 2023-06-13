@@ -7,7 +7,7 @@
 <br/> pyEVA is a Python-based program developed for mass-spectrometry-based research, meant to aid in fidelity checking of EIC plots from feature tables.
 Initially written in C# and published by Guo et al. in 2021 as EVA[^1], to aid in ease-of-use and multi-platform usage we have rewritten it in Python. Through pyEVA's use of
 deep learning tools, the process of identifying EIC plots as true or false can be automated, greatly speeding up the mass spectrometry pipeline of work.
-<br/><br/> While this is meant as a quick startup guide, we also feature a more detailed user setup guide in the repository, and a video guide for setup on [Youtube](PUT LINK HERE).
+<br/><br/> While this is meant as a quick startup guide, we also feature a more detailed user setup guide in the repository, and a video guide for setup on [Youtube](https://youtu.be/fccrGnw6F2M).
 
 ## Necessary Programs
 
@@ -48,7 +48,7 @@ then `Python Interpreter`. From there, click `Add Interpreter`, `Add Local Inter
 
 ## Running the Program 
 
-In `input` place a .csv file with the first two columns being `mz` and `rt` (followed by the relevant data in successive columns), along with the related .mzXML or .mzML files.
+In `input` place a .csv file with the first two columns being `m/z` and `rt` (followed by the relevant data in successive columns), along with the related .mzXML or .mzML files.
 
 In the PyCharm terminal, type: `python main.py`. This should start your program. Choose the level of smoothing (0, 1, 2), and wait for the EICs to be output
 to the `EICplots` folder under `classifier`. In `output` there should be a .csv named `FinalTable.csv` with the results of the analysis, and a .csv called `PredictionOutcomes.csv`
@@ -58,9 +58,12 @@ with  Boolean values for the data input.
 
 We offer a set of data used for the demonstrations in the video [here](https://drive.google.com/file/d/1oMzXr3YHDV_7FaV6SS6MrUFQPtSZwy3o/view?usp=sharing)
 
-## Contacts
+## Contacts and Credits
 
-For any issues or suggestions, please contact Tao Huan (thuan@chem.ubc.ca)
+For any issues or suggestions, please contact Tao Huan (thuan@chem.ubc.ca) or Ethan Wong-Ma (ethan.wongma@gmail.com)
+
+The utmost of thanks to Shaoyun Tong for developing the first version of pyEVA, which was debugged and improved upon to make this version. Without her help
+this would not be possible. Additionally, thanks to Yukai Wang for aiding in teaching me Python, which enabled further development of this project.
 
 ## Citation
 
