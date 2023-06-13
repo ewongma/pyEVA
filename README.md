@@ -7,7 +7,7 @@
 <br/> pyEVA is a Python-based program developed for mass-spectrometry-based research, meant to aid in fidelity checking of EIC plots from feature tables.
 Initially written in C# and published by Guo et al. in 2021 as EVA[^1], to aid in ease-of-use and multi-platform usage we have rewritten it in Python. Through pyEVA's use of
 deep learning tools, the process of identifying EIC plots as true or false can be automated, greatly speeding up the mass spectrometry pipeline of work.
-<br/><br/> While this is meant as a quick startup guide, we also feature a more detailed user setup guide in the repository, and a video guide for setup on [Youtube](https://youtu.be/fccrGnw6F2M).
+<br/><br/> While this is meant as a quick startup guide, we also feature a more detailed user setup guide in the repository, and a video guide for setup on [Youtube](https://youtu.be/DCJblQjpbmc).
 
 ## Necessary Programs
 
